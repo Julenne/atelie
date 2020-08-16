@@ -1,0 +1,67 @@
+body {
+  background-color: #EDD9FF;
+  font-family: 'Thasadith', sans-serif;
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nameAtelier {
+  margin-left: 30px;
+}
+.logoAtelier {
+   margin-top: 100px;
+}
+.box-login {
+  position: absolute;
+  width: 470px;
+  height: 300px;
+  left: 800px;
+  top: 180px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+  filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, 0.25));
+  background-color: #22162B;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputs {
+  font-family: 'Thasadith', sans-serif;
+  font-size: 25px;
+
+  margin-top: 25px;
+  border-radius: 25px;
+  width: 390px;
+  height: 45px;
+  background-color: #F1EAF6;
+  box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.button {
+  font-family: 'Thasadith', sans-serif;
+  font-weight: 700;
+
+  font-size: 25px;
+  margin-top: 30px;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  color: #FFFFFF;
+  background-color: #a686c2;
+}
+
+input.placeholder {
+  opacity:0.6;
+}
