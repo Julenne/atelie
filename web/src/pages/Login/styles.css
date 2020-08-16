@@ -63,8 +63,8 @@ body {
   background-color: #a686c2;
 }
 
-input.placeholder {
-  opacity:0.6;
+input::placeholder {
+  opacity:0.5;
 }
 
 a {
