@@ -6,20 +6,21 @@ body {
 
 .logo {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  flex-direction: column;  
 }
 .nameAtelier {
-  margin-left: 30px;
+  margin-left: -150px;
 }
+
 .logoAtelier {
-   margin-top: 100px;
+  width: 130;
+  margin-left: -100px;
 }
 .box-login {
   position: absolute;
   width: 470px;
   height: 300px;
-  left: 800px;
+  left: 850px;
   top: 180px;
 
   display: flex;
@@ -27,7 +28,7 @@ body {
   align-items: center;
 
   border-radius: 10px;
-  filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 2px 15px rgba(0, 0, 0, 0.25));
   background-color: #22162B;
 }
 
@@ -64,4 +65,12 @@ body {
 
 input.placeholder {
   opacity:0.6;
+}
+
+a {
+  color: #22162B;
+  margin-left: 850px;
+  font-size: 20px;
+  font-weight: 700;
+  
 }

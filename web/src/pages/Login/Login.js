@@ -16,7 +16,7 @@ function Login() {
           <input type="button" value="entrar" className="button" onClick="#"/>
         </div>
       </div>
-      <a href="#">Recupere a senha</a>
+      <a href="#">Recuperar senha</a>
     </div>
   );
 }
