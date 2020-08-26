@@ -1,12 +1,15 @@
 .header {
-  position: absolute;
-  width: 1440px;
+  position: relative;
+  width: 1350px;
   height: 90px;
+  
   left: 0px;
   top: 0px;
-
+  
+  display: flex;
+  
   background-color: #F1EAF6;
-  filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.25));
 }
 
 .icon {

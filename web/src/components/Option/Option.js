@@ -3,18 +3,11 @@ import './styles.css';
 
 function Option(props){
   return(
-      <div>
-        <label htmlFor={props.value} className="notSelectable">
+        <label htmlFor={props.id} className="notSelectable">
           {props.value}  
-          <input type="checkbox" className="input" name={props.value} defaultValue={false} onClick={isChecked()} id={props.value} />
+          <input type="radio" className="input" name={props.value} defaultValue={false} id={props.id} />
         </label>
-      </div>
   );
-}
-
-function isChecked(){
-  if(document.getElementsByClassName('input').autocomplete) 
-  alert('oi');
 }
 
 export default Option;
