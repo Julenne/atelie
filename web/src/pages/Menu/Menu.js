@@ -5,7 +5,11 @@ import Option from '../../components/Option/Option';
 function Menu() {
   return(
     <div id="menu" className="menu">
-      <Option />
+      <Header />
+      <div className="wrap">
+        <Option value="Relatórios"/>
+        <Option value="Oi"/>
+      </div>
     </div>
   );
 }

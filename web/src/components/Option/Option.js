@@ -1,12 +1,20 @@
 import React from 'react';
 import './styles.css';
 
-function Option(){
+function Option(props){
   return(
-    <div id="option" className="option">
-      <h1>Oi</h1>
-    </div>
+      <div>
+        <label htmlFor={props.value} className="notSelectable">
+          {props.value}  
+          <input type="checkbox" className="input" name={props.value} defaultValue={false} onClick={isChecked()} id={props.value} />
+        </label>
+      </div>
   );
+}
+
+function isChecked(){
+  if(document.getElementsByClassName('input').autocomplete) 
+  alert('oi');
 }
 
 export default Option;
