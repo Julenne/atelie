@@ -20,6 +20,9 @@ function Menu() {
             <Option value="Tabela de Preço" id={generateId()}/>
             <Option value="Consertos" id={generateId()}/>
             <Option value="Relatórios" id={generateId()}/>
+            <Option value="Relatórios" id={generateId()}/>
+            <Option value="Relatórios" id={generateId()}/>
+            <Option value="Relatórios" id={generateId()}/>
           </div>
           <button type="submit">Ir</button>
         </form>

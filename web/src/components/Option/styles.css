@@ -6,7 +6,7 @@ label {
 
   text-align: center;
   position: relative;
-  margin:15px;
+  margin:10px;
   width: 234px;
   height: 175px;
   border-radius: 10px;
@@ -17,6 +17,7 @@ label {
   align-items: center;
   flex-direction: column;
   
+  position: static;
 }
 
 .notSelectable {
