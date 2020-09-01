@@ -14,12 +14,15 @@ function Menu() {
     <div id="menu" className="menu">
       <Header />
       <div className="flex">
-        <div className="wrap">
-          <Option value="Clientes" id={generateId()}/>
-          <Option value="Tabela de Preço" id={generateId()}/>
-          <Option value="Consertos" id={generateId()}/>
-          <Option value="Relatórios" id={generateId()}/>
-        </div>
+        <form className="column">
+          <div className="wrap">
+            <Option value="Clientes" id={generateId()}/>
+            <Option value="Tabela de Preço" id={generateId()}/>
+            <Option value="Consertos" id={generateId()}/>
+            <Option value="Relatórios" id={generateId()}/>
+          </div>
+          <button type="submit">Ir</button>
+        </form>
       </div>
     </div>
   );

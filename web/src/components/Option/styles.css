@@ -29,7 +29,7 @@ label {
   /* cursor: default; */
 }
 
-input {
+.input {
   width: 23px;
   height: 23px;
 }
