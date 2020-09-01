@@ -1,37 +1,33 @@
-/*
-  criar um arquivo global com o body
-*/
 body {
   background-color: #EDD9FF;
   font-family: 'Thasadith', sans-serif;
-  
 }
+
 .menu{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .wrap {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
+
 .column {
   flex-direction: column;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 100px;
-  
 }
 
 button {
   width: 100px;
   height: 40px;
   border-radius: 5px;
-  
-  /*margin-top: 50px;*/
 
   background-color: #A178C5;
 }
