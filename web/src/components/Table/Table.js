@@ -12,6 +12,9 @@ function Table (props) {
     </div>
   );
 }
+
+export default Table;
+
  /*
   EXAMPLES:
   const data = [
@@ -36,4 +39,3 @@ function Table (props) {
   
   */
 
-export default Table;

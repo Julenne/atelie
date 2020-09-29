@@ -6,7 +6,13 @@ function ClientList(){
   const data = [
     {name: "Raissa", phone: 999999999},
     {name: "Ursula", phone: 999999999},
-    {name: "Maria", phone: 999999999}
+    {name: "Maria", phone: 999999999},
+    {name: "Maria", phone: 999999999},
+    {name: "Maria", phone: 999999999},
+    {name: "Maria", phone: 999999999},
+    {name: "Maria", phone: 999999999},
+    {name: "Maria", phone: 999999999},
+    {name: "Maria", phone: 999999999},
   ]
 
   function clients(array){
@@ -15,14 +21,14 @@ function ClientList(){
             <div>{array.map(({phone}) => <p>{phone}</p>)}</div>
           </div>
   }
-  
+
   function firstLine(){
     return <div className="firstLine">
             <p>Nome</p>
             <p>Telefone</p>
           </div>
   }
-  //const result = clients(data);
+
   return(
     <div id="client-box" className="client-box">
       <Header />

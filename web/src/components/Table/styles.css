@@ -13,7 +13,7 @@
   font-size: 19px;
 
   background-color: #22162B;
-  margin-left: 45px;
+  margin-left: 35px;
   margin-right: 45px;
 
   display: flex;
@@ -28,5 +28,7 @@
   font-size: 17px;
 
   margin-left: 35px;
-  margin-right: 20px;
+  margin-right: 45px;
+  overflow: auto;
+  height: 280px;
 }
