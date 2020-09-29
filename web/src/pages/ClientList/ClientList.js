@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
-import Header from '../../components/Header/Header'
+import Header from '../../components/Header/Header';
+import Table from '../../components/Table/Table';
 function ClientList(){
   return(
     <div id="client-box" className="client-box">
@@ -11,9 +12,7 @@ function ClientList(){
           <input type="text" placeholder="Pesquisar clientes" className="searchText"/>
           <input type="submit" value="Ir" className="searchButton"/>
         </form>
-        {
-          /* Aqui é aonde ficará a tabela*/
-        }
+        <Table />
       </div>
     </div>
   );

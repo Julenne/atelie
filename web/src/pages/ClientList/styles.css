@@ -6,6 +6,7 @@ body {
 .client-box {
   display: flex;
   flex-direction: column;
+  
 }
 .actions {
   margin-top: 125px;
@@ -14,6 +15,7 @@ body {
 }
 
 .searchButton {
+  font-family: 'Thasadith', sans-serif;
   margin-left: 8px;
 
   width: 40px;
@@ -22,20 +24,28 @@ body {
   color: white;
   background-color: #22162B;
   border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .searchText {
+  font-family: 'Thasadith', sans-serif;
   width: 190px;
   height: 32px;
 
   border-radius: 8px;
+  font-weight: 900;
+  font-size: 16px;
 }
 
 .addClients {
+  font-family: 'Thasadith', sans-serif;
   width: 170px;
   height: 38px;
 
   color: white;
   background-color: #22162B;
   border-radius: 8px;
+  font-weight: 900;
+  font-size: 16px;
 }

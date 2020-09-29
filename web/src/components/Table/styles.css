@@ -1,0 +1,23 @@
+.data {
+  font-family: 'Thasadith', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+
+  
+}
+
+.firstLine {
+  color: white;
+
+  background-color: #22162B;
+  margin-left: 45px;
+  margin-right: 45px;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.clients {
+  
+}
