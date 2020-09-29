@@ -1,9 +1,9 @@
 import React from 'react';
-//import Login from '../src/pages/Login/Login';
-import Menu from '../src/pages/Menu/Menu';
+import ClientList from '../src/pages/ClientList/ClientList';
+//import Menu from '../src/pages/Menu/Menu';
 function App() {
   return (
-    <Menu />
+    <ClientList />
   );
 }
 

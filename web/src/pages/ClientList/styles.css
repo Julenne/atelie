@@ -1,0 +1,41 @@
+body {
+  background-color: #EDD9FF;
+  font-family: 'Thasadith', sans-serif;
+}
+
+.client-box {
+  display: flex;
+  flex-direction: column;
+}
+.actions {
+  margin-top: 125px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.searchButton {
+  margin-left: 8px;
+
+  width: 40px;
+  height: 38px;
+
+  color: white;
+  background-color: #22162B;
+  border-radius: 5px;
+}
+
+.searchText {
+  width: 190px;
+  height: 32px;
+
+  border-radius: 8px;
+}
+
+.addClients {
+  width: 170px;
+  height: 38px;
+
+  color: white;
+  background-color: #22162B;
+  border-radius: 8px;
+}
