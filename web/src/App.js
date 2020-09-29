@@ -1,9 +1,9 @@
 import React from 'react';
-import Table from '../src/components/Table/Table';
+import ClientList from '../src/pages/ClientList/ClientList';
 //import Menu from '../src/pages/Menu/Menu';
 function App() {
   return (
-    <Table />
+    <ClientList />
   );
 }
 

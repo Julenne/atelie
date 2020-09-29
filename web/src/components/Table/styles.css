@@ -1,13 +1,16 @@
-.data {
+.table {
   font-family: 'Thasadith', sans-serif;
   font-weight: 700;
-  font-size: 19px;
+}
 
-  
+.table-box {
+  margin-top: 40px;
 }
 
 .firstLine {
   color: white;
+  
+  font-size: 19px;
 
   background-color: #22162B;
   margin-left: 45px;
@@ -18,6 +21,12 @@
   flex-direction: row;
 }
 
-.clients {
-  
+.data {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  font-size: 17px;
+
+  margin-left: 35px;
+  margin-right: 20px;
 }
