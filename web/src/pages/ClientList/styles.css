@@ -14,38 +14,70 @@ body {
   justify-content: space-around;
 }
 
-.searchButton {
-  font-family: 'Thasadith', sans-serif;
-  margin-left: 8px;
+form {
+  border-radius: 40px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 4px;
+  background-color: #F1EAF6;
+  height: 28px;
+  width: 220px;
+}
 
+
+form > button {
+  border: none;
+  background-color: #F1EAF6;
+  
+  padding: 13px;
+
+  /*padding-top: 13px;*/
+  background-image:url(../../assets/images/search-img.svg);
+  background-repeat:no-repeat; 
+}
+.searchButton {
+  
+  height: 28px;
+  width: 10px;
+  /*
   width: 40px;
   height: 38px;
-
-  color: white;
-  background-color: #22162B;
-  border-radius: 5px;
-  font-weight: 700;
-  font-size: 16px;
+  */
+  
+  
+  
 }
 
 .searchText {
   font-family: 'Thasadith', sans-serif;
-  width: 190px;
-  height: 32px;
+  width: 175px;
+  height: 25px;
+  
+  padding-top: 2px;
+  padding-left: 7px;
+  border: none;
+  border-radius: 32px;
 
-  border-radius: 8px;
   font-weight: 900;
-  font-size: 16px;
+  font-size: 17px;
+  background-color: #F1EAF6;
+  
+  
 }
 
 .addClients {
   font-family: 'Thasadith', sans-serif;
   width: 170px;
-  height: 38px;
+  height: 34px;
 
   color: white;
   background-color: #22162B;
   border-radius: 8px;
   font-weight: 900;
-  font-size: 16px;
+  font-size: 17px;
+  border: none;
+  padding-left:34px;
+  padding-top: 3px; 
+  background-image:url(../../assets/images/add-person.svg);
+  background-repeat:no-repeat; /*para não repetir a imagem*/ 
 }
