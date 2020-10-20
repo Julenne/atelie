@@ -1,27 +1,35 @@
 body {
   background-color: #EDD9FF;
   font-family: 'Thasadith', sans-serif;
+  /*padding-top:0px;*/
 }
 
 .client-box {
   display: flex;
   flex-direction: column;
-  
 }
+
 .actions {
   margin-top: 125px;
+  
   display: flex;
   justify-content: space-around;
 }
 
+
 form {
-  border-radius: 40px;
+  border-radius: 15px;
   display: flex;
   justify-content: flex-start;
+  
   padding: 4px;
   background-color: #F1EAF6;
   height: 28px;
   width: 220px;
+
+  filter: drop-shadow(0px 3px 5px 
+  rgba(0, 0, 0, 0.25));
+  
 }
 
 
@@ -29,26 +37,17 @@ form > button {
   border: none;
   background-color: #F1EAF6;
   
+  height: 28px;
+  width: 10px;
   padding: 13px;
 
   /*padding-top: 13px;*/
   background-image:url(../../assets/images/search-img.svg);
   background-repeat:no-repeat; 
 }
-.searchButton {
-  
-  height: 28px;
-  width: 10px;
-  /*
-  width: 40px;
-  height: 38px;
-  */
-  
-  
-  
-}
 
 .searchText {
+  
   font-family: 'Thasadith', sans-serif;
   width: 175px;
   height: 25px;
@@ -60,9 +59,7 @@ form > button {
 
   font-weight: 900;
   font-size: 17px;
-  background-color: #F1EAF6;
-  
-  
+  background-color: #F1EAF6;  
 }
 
 .addClients {
@@ -75,9 +72,13 @@ form > button {
   border-radius: 8px;
   font-weight: 900;
   font-size: 17px;
+
   border: none;
   padding-left:34px;
   padding-top: 3px; 
   background-image:url(../../assets/images/add-person.svg);
   background-repeat:no-repeat; /*para não repetir a imagem*/ 
+
+  filter: drop-shadow(0px 4px 7px 
+  rgba(0, 0, 0, 0.25));
 }

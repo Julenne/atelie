@@ -2,7 +2,6 @@ import React from 'react';
 import './styles.css';
 import Header from '../../components/Header/Header';
 import Table from '../../components/Table/Table';
-import searchImg from '../../assets/images/search-img.svg'
 
 function ClientList(){
   const data = [
@@ -36,18 +35,16 @@ function ClientList(){
       <Header />
       <div id="actions" className="actions">
         <input type="button" value="Adicionar Clientes" className="addClients"/>
-        <form action="#" className="search" id="search">
-          <button type="submit"></button>
-          <input type="text" placeholder="Pesquisar clientes" className="searchText" onInput/>
-        </form>
-          
-          {/**/}
-        
+        <div id="searchButton">
+          <form action="#" className="search" id="search">
+            <button type="submit"></button>
+            <input type="text" placeholder="Pesquisar clientes" className="searchText"/>
+          </form>
+        </div>
       </div>
       <Table data={clients(data)} firstLine={firstLine()}/>
     </div>
   );
 }
-
 
 export default ClientList;

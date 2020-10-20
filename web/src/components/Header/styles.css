@@ -3,6 +3,7 @@
   width:100%;
   height: 90px;
   position:fixed;
+  z-index: 9999; /*sobrepõe a div sobre os outros componentes*/
   top:0;
   left:0;
   
