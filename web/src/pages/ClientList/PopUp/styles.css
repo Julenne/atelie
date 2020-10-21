@@ -1,0 +1,69 @@
+.box-popup {
+  font-family: 'Thasadith', sans-serif;
+  width: 350px;
+  height: 330px;
+
+  background-color: #F1EAF6;
+  border-radius: 25px;
+  filter: drop-shadow(0px 3px 5px 
+  rgba(0, 0, 0, 0.411));
+  z-index: 9;
+  position: fixed;
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-popup {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nameDiv,
+.telDiv {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nameInput,
+.telInput {
+  width: 265px;
+  height: 30px;
+  margin-top: 5px;
+  border: none;
+
+  font-size: 18px;
+  border-radius: 18px;
+  filter: drop-shadow(0px 3px 5px 
+  rgba(0, 0, 0, 0.25));
+}
+
+.nameLabel,
+.telLabel {
+  font-size: 20px;
+  color: #22162B;
+}
+
+.btnSubmit {
+  margin-top: 30px;
+  width: 105px;
+  height: 30px;
+  border: none;
+
+  font-size: 16px;
+  color: white;
+  border-radius: 13px;
+  background-color: #22162B;
+  filter: drop-shadow(0px 3px 5px 
+  rgba(0, 0, 0, 0.25));
+}

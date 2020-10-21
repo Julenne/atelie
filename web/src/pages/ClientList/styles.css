@@ -11,13 +11,13 @@ body {
 
 .actions {
   margin-top: 125px;
-  
+
   display: flex;
   justify-content: space-around;
 }
 
 
-form {
+.search {
   border-radius: 15px;
   display: flex;
   justify-content: flex-start;
@@ -33,7 +33,7 @@ form {
 }
 
 
-form > button {
+.search > button {
   border: none;
   background-color: #F1EAF6;
   
