@@ -8,6 +8,7 @@
   filter: drop-shadow(0px 3px 5px 
   rgba(0, 0, 0, 0.411));
   z-index: 9;
+
   position: fixed;
   display: none;
   position: absolute;
@@ -54,7 +55,14 @@
   color: #22162B;
 }
 
+.buttons {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .btnSubmit {
+  
   margin-top: 30px;
   width: 105px;
   height: 30px;
@@ -64,6 +72,21 @@
   color: white;
   border-radius: 13px;
   background-color: #22162B;
+  filter: drop-shadow(0px 3px 5px 
+  rgba(0, 0, 0, 0.25));
+}
+
+.btnBack {
+  
+  margin-top: 30px;
+  width: 105px;
+  height: 30px;
+  border: none;
+
+  font-size: 16px;
+  color: white;
+  border-radius: 13px;
+  background-color: #A178C5;
   filter: drop-shadow(0px 3px 5px 
   rgba(0, 0, 0, 0.25));
 }

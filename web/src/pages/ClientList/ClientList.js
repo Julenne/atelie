@@ -25,7 +25,9 @@ function ClientList(){
   function openForm() {
     document.getElementById('popup').style.display = "block"
   }
-
+  function closeForm(){
+    document.getElementById('popup').style.display = "none"
+  }
   function firstLine(){
     return <div className="firstLine">
             <p>Nome</p>
@@ -47,7 +49,7 @@ function ClientList(){
           </form>
         </div>
       </div>
-      <PopUp />
+      <PopUp close={closeForm}/>
       <Table data={clients(data)} firstLine={firstLine()}/>
     </div>
   );

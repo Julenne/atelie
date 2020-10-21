@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.css';
 
 
-function PopUp() {
+function PopUp(props) {
   return (
     <div className="box-popup" id="popup">
       <form action="" className="form-popup" >
@@ -18,7 +18,12 @@ function PopUp() {
           <input type="tel" placeholder="Ex: 99 999999999" className="telInput" name="tel" required />
         </div>
         
-        <input type="submit" className="btnSubmit" value="Adicionar" />
+        <div className="buttons">
+          <input type="submit" className="btnSubmit" value="Adicionar" />
+          <input type="button" className="btnBack" value="Voltar" onClick={props.close}/>
+        </div>
+        
+        
       </form>
     </div>
   );
