@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles.css';
 
-
 function PopUp(props) {
   return (
     <div className="box-popup" id="popup">
@@ -22,8 +21,6 @@ function PopUp(props) {
           <input type="submit" className="btnSubmit" value="Adicionar" />
           <input type="button" className="btnBack" value="Voltar" onClick={props.close}/>
         </div>
-        
-        
       </form>
     </div>
   );

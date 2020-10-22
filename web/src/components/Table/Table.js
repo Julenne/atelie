@@ -1,16 +1,25 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './styles.css';
 
-function Table (props) {
- 
-  return(
-    <div id="table-box" className="table-box">
-      <div className="table">
-          {props.firstLine}
-          {props.data}
+class Table extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      firstLine: props.firstLine,
+      data: props.data
+    }
+  }
+  render(){
+    return(
+      <div id="table-box" className="table-box">
+        <div className="table">
+            {this.state.firstLine}
+            {this.state.data}
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
+  
 }
 
 export default Table;

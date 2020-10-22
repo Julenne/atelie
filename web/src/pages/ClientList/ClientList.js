@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import './styles.css';
 import Header from '../../components/Header/Header';
 import Table from '../../components/Table/Table';
@@ -22,6 +23,23 @@ function ClientList(){
             <div>{array.map(({phone}) => <p>{phone}</p>)}</div>
           </div>
   }
+
+  function search(){
+    var string = document.getElementById("searchClients").value;
+    var regex = new RegExp(string);
+    var table = document.getElementById("table-box")
+
+    var map1 = data.map(({name}) => {
+      if(name == regex) {
+        return <div className="data">
+            <div>{data.map(({name}) => <p>{name}</p>)}</div> 
+            <div>{data.map(({phone}) => <p>{phone}</p>)}</div>
+          </div>
+      }
+    })
+    ReactDOM.render(map1, table);
+  }
+
   function openForm() {
     document.getElementById('popup').style.display = "block"
   }
@@ -43,8 +61,8 @@ function ClientList(){
          onClick={openForm}/>
         <div id="searchButton">
           <form action="#" className="search" id="search">
-            <button type="submit"></button>
-            <input type="text" placeholder="Pesquisar clientes" 
+            <button type="submit" onClick={search}></button>
+            <input type="text" id="searchClients"placeholder="Pesquisar clientes" 
             className="searchText"/>
           </form>
         </div>
