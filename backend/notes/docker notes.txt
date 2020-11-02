@@ -1,0 +1,9 @@
+sudo service postgresql stop
+
+docker-compose up --build
+
+docker-compose ps
+docker-compose ps -a
+
+//apagar pasta
+chmod 777 -R <caminho_pasta>
