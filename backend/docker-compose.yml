@@ -16,7 +16,7 @@ services:
     tty: true
     build: .
     volumes: 
-      - .:/atelie/back
+      - .:/usr/app
       - /home/app/library/node_modules
     ports: 
       - "3333:3333"

@@ -1,11 +1,12 @@
-FROM node:14.15
+#o alpine é melhor pois gasta menos mb que node:latest
+FROM node:alpine
 
-WORKDIR /atelie/back
+WORKDIR /usr/app
 COPY package*.json ./
 
 RUN npm install 
 
-FROM scratch
+#FROM scratch
 COPY . . 
 
 EXPOSE 3333
